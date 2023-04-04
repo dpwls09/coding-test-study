@@ -39,7 +39,7 @@ def makeMinOperationList():
 
 makeMinOperationList();
 num = int(input());
-print(minOperationList[num])
+print(minOperationList[num]);
 
 
 # a = int(input())
