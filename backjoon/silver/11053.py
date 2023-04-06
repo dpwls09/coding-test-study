@@ -10,6 +10,8 @@ for num in num_list:
     dp[num] = max(dp[:num]) + 1
 print(max(dp));
 
+#
+
 # import sys
 # read = sys.stdin.readline;
 
