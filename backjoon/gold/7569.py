@@ -13,8 +13,8 @@ def bfs():
             h, x, y = tH+mH, tX+mX, tY+mY;
 
             #범위 벗어나는지 확인.
-            # if (0<=h<H and 0<=x<N and 0<=y<M) == False: continue;
-            if h < 0 or h >= H or x < 0 or x >= N or y < 0 or y >= M: continue;
+            if (0<=h<H and 0<=x<N and 0<=y<M) == False: continue; #크게 상관 없음
+            # if h < 0 or h >= H or x < 0 or x >= N or y < 0 or y >= M: continue;
 
             if tomato[h][x][y] == 0:
                 tomato[h][x][y] = tomato[tH][tX][tY]+1;
