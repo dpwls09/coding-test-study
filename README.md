@@ -3,5 +3,5 @@
 
 1. **backjoon**
 	1. gold
-		* [10775 공항 풀이 설명](https://yedean-it.tistory.com/4)
+		* [10775 공항 풀이 설명](https://yedean-it.tistory.com/entry/Python-10775-%EA%B3%B5%ED%95%AD)
 
