@@ -110,28 +110,28 @@ print(result);
 
 
 
-#시간초과
-# def isDocking(max):
-#     while max >= 0:
-#         if gate[max] == False:
-#             gate[max] = True;
-#             return True;
-#         max -= 1;
-#     return False;
+# 시간초과
+def isDocking(max):
+    while max >= 0:
+        if gate[max] == False:
+            gate[max] = True;
+            return True;
+        max -= 1;
+    return False;
 
-# G = int(input());
-# P = int(input());
+G = int(input());
+P = int(input());
 
-# gate = [False for _ in range(G)];
-# maxList = [ int(input())-1 for _ in range(P)]; #인덱스는 0부터 시작하기때무네~
-# result = 0;
+gate = [False for _ in range(G)];
+maxList = [ int(input())-1 for _ in range(P)]; #인덱스는 0부터 시작하기때무네~
+result = 0;
 
-# for max in maxList:
-#     if isDocking(max):
-#         result += 1;
-#     else:
-#         print(result)
-#         exit(0);
+for max in maxList:
+    if isDocking(max):
+        result += 1;
+    else:
+        print(result)
+        exit(0);
     
     
 
