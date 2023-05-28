@@ -14,7 +14,6 @@ for _ in range(T):
     print(calc(M, N, x, y));
 
 
-
 # from collections import deque;
 
 # T = int(input());
