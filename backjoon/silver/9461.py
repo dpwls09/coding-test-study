@@ -5,7 +5,6 @@ P = [0 for _ in range(100)];
 init = [1, 1, 1, 2, 2, 3, 4, 5, 7, 9];
 
 def make_p ():
-
     for i in range(10):
         P[i] = init[i];
 
