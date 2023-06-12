@@ -37,5 +37,5 @@ for _ in range(M):
     elif func == 'remove': S.discard(int(x));
     elif func == 'check': check(int(x));
     elif func == 'toggle': toggle(int(x));
-    elif func == 'all': S = set([str(i) for i in range(1, 21)]);
+    elif func == 'all': S = set([i for i in range(1, 21)]);
     elif func == 'empty': S = set();
